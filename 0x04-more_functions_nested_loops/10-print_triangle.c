@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * print_triangle -> cheack for a digit
- *@size : integer type
+ * print_triangle - check for a digit
+ *@size: integer type
  * Return: void
  */
-
 void print_triangle(int size)
 {
 	int i = 1, ii;
@@ -25,7 +24,7 @@ void print_triangle(int size)
 		}
 
 		_putchar('\n');
-		ii++;
+		i++;
 	}
 	if (i == 1)
 		_putchar('\n');
