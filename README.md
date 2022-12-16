@@ -1,1 +1,1 @@
-C low level programming
+Debugging is process of resolving bugs
