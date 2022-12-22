@@ -29,9 +29,9 @@ char *rot13(char *str)
 			     'x', 'y', 'z', 'a', 'b', 'c',
 			     'd', 'e', 'f', 'g', 'h', 'i',
 			     'j', 'k', 'l', 'm'};
-	while (str[++index])
+	while (str[++index1])
 	{
-		for (index2 = 0; index2 < 52; index++)
+		for (index2 = 0; index2 < 52; index2++)
 		{
 			if (str[index1] == alphabet[index2])
 			{
