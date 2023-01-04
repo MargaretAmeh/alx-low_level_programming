@@ -28,7 +28,7 @@ int helperFunction(int num, int psqrt)
  *Return: squareroot of n.
  *-1 if n does  not have a natural spot.
  */
-int sqrt_recursion(int n)
+int _sqrt_recursion(int n)
 {
 	if (n < 0)
 		return (-1);
