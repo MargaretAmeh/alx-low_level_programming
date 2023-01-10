@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 #include <stdio.h>
 /**
  * wordnos - counts no of words in a given string
@@ -58,7 +59,7 @@ char **strtow(char *str)
 				while (start < end)
 					*tmp++ = str[start++];
 				*tmp = '\0';
-				maatrix[k] = tmp - c;
+				matrix[k] = tmp - c;
 				k++;
 				c = 0;
 			}
