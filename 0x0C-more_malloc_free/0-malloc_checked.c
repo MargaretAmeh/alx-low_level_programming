@@ -1,7 +1,7 @@
 #include <stdlib.h>
 /**
  * malloc-checked - allocates memory using malloc.
- * @b: size of memory allocated .
+ * @b: size of memory allocated.
  *
  * Return: pointer to allocated memory.
  */
