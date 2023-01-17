@@ -2,6 +2,7 @@
 #include <stdio.h>
 /*
  *main - prints name of file.
+ *Description: the name of the file is printed.
  *
  *Return: 0.
  */
