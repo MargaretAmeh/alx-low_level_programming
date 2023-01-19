@@ -7,7 +7,7 @@
  *
  *Return: void.
  */
-void print_all(const char * const format, ...);
+void print_all(const char * const format, ...)
 {
 	unsigned int i;
 	va_list args;
